@@ -20,22 +20,34 @@ body{
 
 /* ========== FORM ==========  */
 .search-bar{
-    border: 3px solid grey; 
     padding: 2px 10px;
+    background-color: hsla(0, 0%, 77%, 10%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #313B45;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .search-bar input{
+    background: transparent;
+    border: none ; 
 
+    flex:1; 
+    font-size: 15px;
+    outline: none;
+    color: #eee; 
 }
+
 .search-bar input::placeholder{
-   
+   font-size: 15px;
 }
 
 .search-bar .icon{
-    
+    cursor: pointer;
 }
 .search-bar .icon:active{
-    
+    outline: 1px solid blue;
 }
 
 /* ========== CITY ==========  */
